@@ -4,6 +4,8 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { Header } from 'react-native/Libraries/NewAppScreen';
+import LittleLemonHeader from '@/components/Header';
 
 export default function HomeScreen() {
   return (
@@ -17,6 +19,7 @@ export default function HomeScreen() {
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
+        <LittleLemonHeader />
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
