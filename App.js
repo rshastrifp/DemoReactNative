@@ -6,13 +6,14 @@ import { View, StyleSheet } from 'react-native';
 import LittleLemonHeader from './ios/components/LittleLemonHeader';
 import LittleLemonFooter from './ios/components/LittleLemonFooter';
 import MenuItems from './ios/components/MenuItems';
+import FeedbackForm from './ios/components/FeedbackForm';
 
 export default function App() {
   return (
     <>
       <View style={styles.container}>
         <LittleLemonHeader />
-        <MenuItems />
+        <FeedbackForm />
       </View>
       <View style={styles.footerContainer}>
         <LittleLemonFooter />
